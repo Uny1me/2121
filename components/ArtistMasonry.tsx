@@ -28,11 +28,11 @@ import image6 from "../public/zainab-III/06.jpg";
 
 // Tareet
 
-import imaget1 from "../public/tareet/01.jpg";
-import imaget2 from "../public/tareet/02.jpg";
-import imaget3 from "../public/tareet/03.jpg";
-import imaget4 from "../public/tareet/04.jpg";
-import imaget5 from "../public/tareet/05.jpg";
+import imaget1 from "../public/tareet/01.webp";
+import imaget2 from "../public/tareet/02.webp";
+import imaget3 from "../public/tareet/03.webp";
+import imaget4 from "../public/tareet/04.webp";
+import imaget5 from "../public/tareet/05.webp";
 
 const breakpointColumnsObj = {
   default: 4,
@@ -46,6 +46,39 @@ const ArtistMasonry = () => {
 
   return (
     <div className="px-5 lg:px-60 pt-20 lg:pt-40">
+      <div>
+        <h1 className="text-5xl self-start"> Tareet</h1>
+        <div className="divider-bright my-1 mt-3"></div>
+        <div className="flex gap-x-5 py-5">
+          <Masonry
+            breakpointCols={breakpointColumnsObj}
+            className={`my-masonry-grid`}
+            columnClassName="my-masonry-grid_column"
+          >
+            <div className="w-100">
+              <Image src={imaget1} alt="" placeholder="blur" />
+            </div>
+
+            <div className="w-100">
+              <Image src={imaget2} alt="" placeholder="blur" />
+            </div>
+
+            <div className="w-100">
+              <Image src={imaget3} alt="" placeholder="blur" />
+            </div>
+
+            <div className="w-100">
+              <Image src={imaget4} alt="" placeholder="blur" />
+            </div>
+
+            <div className="w-100">
+              <Image src={imaget5} alt="" placeholder="blur" />
+            </div>
+
+            {/* Zainab Mansary */}
+          </Masonry>
+        </div>
+      </div>
       <h1 className="text-5xl self-start"> Zainab Mansary</h1>
       <div className="flex gap-x-5 py-5">
         <h1
@@ -181,39 +214,6 @@ const ArtistMasonry = () => {
           {/* Zainab Mansary */}
         </Masonry>
       )}
-      <div className="py-20">
-        <h1 className="text-5xl self-start"> Tareet</h1>
-        <div className="divider-bright my-1 mt-3"></div>
-        <div className="flex gap-x-5 py-5">
-          <Masonry
-            breakpointCols={breakpointColumnsObj}
-            className={`my-masonry-grid`}
-            columnClassName="my-masonry-grid_column"
-          >
-            <div className="w-100">
-              <Image src={imaget1} alt="" placeholder="blur" />
-            </div>
-
-            <div className="w-100">
-              <Image src={imaget2} alt="" placeholder="blur" />
-            </div>
-
-            <div className="w-100">
-              <Image src={imaget3} alt="" placeholder="blur" />
-            </div>
-
-            <div className="w-100">
-              <Image src={imaget4} alt="" placeholder="blur" />
-            </div>
-
-            <div className="w-100">
-              <Image src={imaget5} alt="" placeholder="blur" />
-            </div>
-
-            {/* Zainab Mansary */}
-          </Masonry>
-        </div>
-      </div>
     </div>
   );
 };
