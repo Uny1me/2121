@@ -3,21 +3,24 @@ import React, { useState } from "react";
 import Masonry from "react-masonry-css";
 
 // Images
-import image000 from "../public/zainab/image-000.jpg";
-import image001 from "../public/zainab/image-001.jpg";
-import image002 from "../public/zainab/image-002.webp";
-import image003 from "../public/zainab/image-003.webp";
-import image004 from "../public/zainab/image-004.webp";
-import image005 from "../public/zainab/image-005.webp";
-import image006 from "../public/zainab/image-006.webp";
+import image000 from "../public/zainab/00.jpg";
+import image001 from "../public/zainab/01.jpg";
+import image002 from "../public/zainab/02.jpg";
+import image003 from "../public/zainab/03.jpg";
+import image004 from "../public/zainab/04.jpg";
+import image005 from "../public/zainab/05.jpg";
+import image006 from "../public/zainab/06.jpg";
+import image007 from "../public/zainab/07.jpg";
+import image008 from "../public/zainab/08.jpg";
+import image009 from "../public/zainab/09.jpg";
 // Images
-import image01 from "../public/zainab-II/01.webp";
-import image02 from "../public/zainab-II/02.webp";
-import image03 from "../public/zainab-II/03.webp";
-import image04 from "../public/zainab-II/04.webp";
-import image05 from "../public/zainab-II/05.webp";
-import image06 from "../public/zainab-II/06.webp";
-import image07 from "../public/zainab-II/07.webp";
+import image01 from "../public/zainab-II/01.jpg";
+import image02 from "../public/zainab-II/02.jpg";
+import image03 from "../public/zainab-II/03.jpg";
+import image04 from "../public/zainab-II/04.jpg";
+import image05 from "../public/zainab-II/05.jpg";
+import image06 from "../public/zainab-II/06.jpg";
+import image07 from "../public/zainab-II/07.jpg";
 // Images
 import image1 from "../public/zainab-III/01.jpg";
 import image2 from "../public/zainab-III/02.jpg";

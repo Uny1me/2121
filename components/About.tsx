@@ -1,4 +1,4 @@
-import image05 from "../public/zainab-II/05.webp";
+import image05 from "../public/zainab-II/05.jpg";
 import Image from "next/image";
 const About = () => {
   return (
@@ -14,13 +14,13 @@ const About = () => {
           Vestibulum commodo tellus finibus diam dapibus, quis rutrum nulla
           congue.
         </h1>
-        <p className="lg:w-[90%] text-md lg:text-xl leading-10">
+        <p className="lg:w-[90%] text-sm lg:text-xl leading-12">
           Mauris consectetur rutrum nunc id tincidunt. Praesent lobortis magna
           sit amet ipsum tristique aliquet. Maecenas imperdiet id arcu ut
           posuere. Aenean nec blandit diam, ac interdum metus. Nam sit amet
           augue felis.
         </p>
-        <p className="lg:w-[90%] text-md lg:text-xl leading-10">
+        <p className="lg:w-[90%] text-sm lg:text-xl leading-12">
           Cras hendrerit ex sit amet fringilla rutrum. Fusce molestie nec leo in
           dapibus. Etiam quis justo ut odio consectetur vehicula. Mauris sed
           nisl magna.
