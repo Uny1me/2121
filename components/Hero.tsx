@@ -7,7 +7,7 @@ import { Location } from "./Icons";
 
 function Hero() {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between px-5 lg:px-12 pt-8">
+    <div className="flex flex-col lg:flex-row items-center justify-between  pt-8">
       <div>
         <h1
           className={`${styles["fade-in-up"]} text-white text-6xl lg:text-8xl pb-8`}

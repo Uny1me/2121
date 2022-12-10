@@ -1,8 +1,8 @@
-import image05 from "../public/zainab-II/05.jpg";
+import image05 from "public/zainab-II/05.jpg";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row px-5 lg:px-12 pt-20 gap-x-8 about-wrapper">
+    <div className="flex flex-col lg:flex-row pt-20 gap-x-8 about-wrapper">
       <div className={`about-img w-[100%]`}>
         <Image src={image05} alt="2121" />
       </div>
@@ -14,13 +14,13 @@ const About = () => {
           Vestibulum commodo tellus finibus diam dapibus, quis rutrum nulla
           congue.
         </h1>
-        <p className="lg:w-[90%] text-sm lg:text-xl leading-12">
+        <p className="lg:w-[90%]  leading-8">
           Mauris consectetur rutrum nunc id tincidunt. Praesent lobortis magna
           sit amet ipsum tristique aliquet. Maecenas imperdiet id arcu ut
           posuere. Aenean nec blandit diam, ac interdum metus. Nam sit amet
           augue felis.
         </p>
-        <p className="lg:w-[90%] text-sm lg:text-xl leading-12">
+        <p className="lg:w-[90%]  leading-8">
           Cras hendrerit ex sit amet fringilla rutrum. Fusce molestie nec leo in
           dapibus. Etiam quis justo ut odio consectetur vehicula. Mauris sed
           nisl magna.
