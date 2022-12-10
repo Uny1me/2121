@@ -25,23 +25,13 @@ const MasonryComponent = () => {
       {designers?.map((designer) => {
         return (
           <>
-            <h1 className="text-6xl self-start pb-3 pt-8"> {designer.name}</h1>
+            <h1 className="lg:text-6xl text-4xl self-start pb-3 pt-8">
+              {" "}
+              {designer.name}
+            </h1>
             {designer.video && (
-              // <div className="w-100 max-w-[1920px] flex items-start content-start">
-              //   <blockquote className="embedly-card" data-card-controls="0">
-              //     <h4 className="outline outline-green-400 border border-green-500">
-              //       <a href={designer.video}></a>
-              //     </h4>
-              //   </blockquote>
-              // </div>
               <div className="embed-container">
-                <iframe
-                  src={designer.video}
-                  // frameBorder="0"
-                  // webkitAllowFullScreen
-                  // mozallowfullscreen
-                  allowFullScreen
-                ></iframe>
+                <iframe src={designer.video} allowFullScreen></iframe>
               </div>
             )}
             <p className="bio leading-9 pb-6 text-lg">{designer.bio}</p>
