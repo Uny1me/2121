@@ -35,6 +35,18 @@ const MasonryComponent = () => {
               </div>
             )}
             <p className="bio leading-9 pb-6 text-lg">{designer.bio}</p>
+            {designer.bigImage &&
+              designer.bigImage!.map((image, index) => {
+                return (
+                  <Image
+                    key={index}
+                    className="hidden lg:block mb-5"
+                    src={image}
+                    alt=""
+                  />
+                );
+              })}
+
             <Masonry
               breakpointCols={breakpointColumnsObj}
               className={`my-masonry-grid`}

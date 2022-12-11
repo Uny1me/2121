@@ -20,6 +20,6 @@
       "@/components/*": ["components*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "library/designers.ts"],
   "exclude": ["node_modules"]
 }
