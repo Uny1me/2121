@@ -11,19 +11,24 @@ const About = () => {
           What&apos;s happening?
         </small>
         <h1 className="text-4xl lg:text-6xl py-6">
-          Vestibulum commodo tellus finibus diam dapibus, quis rutrum nulla
-          congue.
+          The theme this year implores brands and attendees to come up with
+          their interpretations of what fashion will look like a hundred years
+          from now
         </h1>
         <p className="lg:w-[90%]  leading-8">
-          Mauris consectetur rutrum nunc id tincidunt. Praesent lobortis magna
-          sit amet ipsum tristique aliquet. Maecenas imperdiet id arcu ut
-          posuere. Aenean nec blandit diam, ac interdum metus. Nam sit amet
-          augue felis.
+          We will feature works from 5 talented emerging African fashion
+          designers and multi-media artists. The talent will have the
+          opportunity to showcase their innovation as it pertains to materials,
+          design process, sustainability and craft.
         </p>
+        <br />
         <p className="lg:w-[90%]  leading-8">
-          Cras hendrerit ex sit amet fringilla rutrum. Fusce molestie nec leo in
-          dapibus. Etiam quis justo ut odio consectetur vehicula. Mauris sed
-          nisl magna.
+          Included in the designers who will be showcased are Feben, Zainab
+          Mansary, and Kadiju included in our 200 confirmed attendees for
+          opening night, will be some of the most prominent names in music,
+          fashion and art, such as Tems, Ayra Starr, Rema and Lisa Folawiyo. Our
+          media partners include well-established houses like Native Mag and the
+          Guardian.
         </p>
       </div>
     </div>

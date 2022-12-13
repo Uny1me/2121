@@ -22,9 +22,9 @@ const breakpointColumnsObj = {
 const MasonryComponent = () => {
   return (
     <div>
-      {designers?.map((designer) => {
+      {designers?.map((designer, index) => {
         return (
-          <>
+          <div key={index}>
             <h1 className="lg:text-6xl text-4xl self-start pb-3 pt-8">
               {" "}
               {designer.name}
@@ -52,21 +52,22 @@ const MasonryComponent = () => {
               className={`my-masonry-grid`}
               columnClassName="my-masonry-grid_column"
             >
-              {designer.images.map((image, index) => {
-                console.log(image);
-                return (
-                  <div className="w-100" key={index}>
-                    <Image
-                      src={image}
-                      alt=""
-                      placeholder="blur"
-                      className="min-w-[100%] min-h-[40%]"
-                    />
-                  </div>
-                );
-              })}
+              {designer.images &&
+                designer.images.map((image, index) => {
+                  console.log(image);
+                  return (
+                    <div className="w-100" key={index}>
+                      <Image
+                        src={image}
+                        alt=""
+                        placeholder="blur"
+                        className="min-w-[100%] min-h-[40%]"
+                      />
+                    </div>
+                  );
+                })}
             </Masonry>
-          </>
+          </div>
         );
       })}
     </div>
