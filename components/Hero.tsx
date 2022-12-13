@@ -35,7 +35,7 @@ function Hero() {
               }}
             >
               {" "}
-              13&mdash;14, December 2022
+              13&mdash;14, December 2022. 10:00&mdash; 18:00 WAT
             </p>
           </div>
         </div>
